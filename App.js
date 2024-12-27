@@ -10,7 +10,7 @@ function button(call) {
       "Had", "Help", "Holy", "Hat", "Hid", "Hop", "Hide", "Hot", "Heal", "House",
       "Ice", "Igloo", "Iguana", "Ink", "Insect", "Inside", "Iron", "Island", "Islam", "Iran",
       "Joke", "Jitters", "Joe", "Join", "Jinx", "Joyful", "Jungle", "Jot", "Jail", "Junk",
-      "kite", "ketchup", "kit", "kid", "keep", "key", "kick", "kind", "kitchen", "king",
+      "Kite", "Ketchup", "Kit", "Kid", "Keep", "Key", "KicK", "Kind", "Kitchen", "King",
       "Ladybird", "Llama", "Love", "Luck", "Ladder", "Lead", "Learn", "Legend", "Leisure", "Leopard",
       "Man", "Mango", "Map", "Milk", "Monkey", "March", "Market", "Mist", "Meal", "Melon",
       "Nap", "Napkin", "Neat", "Need", "Nation", "Narrow", "Nice", "Noise", "Nurse", "Nut",
@@ -29,7 +29,7 @@ function button(call) {
   let empty = [];
 
   for (let i = 0; i < Array.length; i++) {
-    if (Array[i][0] == call) {
+    if (Array[i][0].toUpperCase() == call) {
       empty.push(Array[i])
     }
   }
